@@ -27,7 +27,7 @@ SECRET_KEY = my_app_SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sumit-api-project.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['useractivityapi.herokuapp.com', '127.0.0.1']
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
